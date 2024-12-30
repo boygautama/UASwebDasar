@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>KOPI TIAM</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
     <link rel="apple-touch-icon" href="assets/images/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 </head>
 <body>
@@ -48,18 +49,50 @@
         <div class="row px-3 pb-2">
             <div class="col-sm-4 text-center mb-3">
                 <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Address</h4>
-                <p>123 Street, New York, USA</p>
+                <h4 class="font-weight-bold">Alamat</h4>
+                <p>Jl. Slt. Abdurrahman No.84, Akcaya, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78113</p>
             </div>
             <div class="col-sm-4 text-center mb-3">
                 <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
                 <h4 class="font-weight-bold">Phone</h4>
-                <p>+012 345 6789</p>
+                <p>+62 899 133 9400</p>
             </div>
             <div class="col-sm-4 text-center mb-3">
                 <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
                 <h4 class="font-weight-bold">Email</h4>
-                <p>info@example.com</p>
+                <p>halo@coffeetiam.id</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 pb-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8173978938776!2d109.32907929999999!3d-0.0389612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d5988bf056fbd%3A0x5d810fe77f24fbe7!2sCOFFEETIAM%20KOBAR!5e0!3m2!1sid!2sid!4v1735276310021!5m2!1sid!2sid" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6 pb-5">
+                <div class="contact-form">
+                    <div id="success"></div>
+                    <form action="#">
+                        <div class="control-group">
+                            <input type="text" class="form-control bg-transparent p-4" name="nama"  id="nama" placeholder="Nama Anda" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control bg-transparent p-4" name="email" id="email" placeholder="Email Anda" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control bg-transparent p-4" name="subject" id="subject" placeholder="Subject" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control bg-transparent py-3 px-4" rows="5" name="pesan" id="pesan" placeholder="Pesan Anda" required="required"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Kirim Pesan</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
