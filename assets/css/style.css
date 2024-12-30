@@ -198,3 +198,20 @@ body {
 .slider {
     max-width: 100%;;
 }
+
+.section-title {
+    position: relative;
+    padding: 115px 0 35px 0;
+    text-align:center
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    margin-left: 1px;
+    background:#DA9F5B
+}
