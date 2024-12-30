@@ -139,6 +139,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 10px;
+    background-attachment: fixed;
 }
 
 .footer .store {
